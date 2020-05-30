@@ -43,7 +43,7 @@
       },
       onApprove: function(data, actions) {
           
-          location.replace("https://www.google.com")
+          window.location.href = "https://good-parent.github.io/Download-Both-Books/"
           
           actions.order.capture().then(function(details) {
               alert('Transaction completed by ' + details.payer.name.given_name + '!');
